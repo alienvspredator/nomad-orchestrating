@@ -32,7 +32,7 @@ job "tgbot" {
       }
 
       env {
-        TG_TOKEN       = "YOUR_TELEGRAM_TOKEN"
+        TG_TOKEN       = "1068332517:AAFoRnA3Ka7lorDEK4Z2EEegraUHPpwwqbo"
         DB_NAME        = "defaultdb"
         DB_USER        = "root"
         DB_HOST        = "${NOMAD_UPSTREAM_IP_cockroachdb}"
